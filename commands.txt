@@ -1,0 +1,6 @@
+ docker build -t api_fast .
+ docker build -t my_python_app .     
+
+
+docker run -p 8000:8000 api_fast   
+docker run -it my_python_app youtube_url="https://www.youtube.com/watch?v=SN5-DnOHQmE&t=4s" question="What is greenhouse effect?"                       
